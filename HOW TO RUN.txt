@@ -1,0 +1,24 @@
+HOW TO RUN:
+
+backend:
+1. cd backend
+2. php start_server.php
+
+frontend:
+1. npm run dev
+
+ai:
+1. ollama serve
+
+
+
+Useful tools
+how to add vectors (embeddings):
+1. cd backend
+2. php artisan embeddings:generate
+
+adding words manually:
+-- INSERT INTO words 
+-- (japanese, reading, english, jlpt_level, example_sentence, part_of_speech, created_at, updated_at, embedding)
+-- VALUES
+-- ('<jp>', '<reading>', '<meaning>', '<jlpt>', NULL, 'verb', NOW(), NOW(), NULL);

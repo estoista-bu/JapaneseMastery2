@@ -1,0 +1,3946 @@
+[
+  {
+    "japanese": "間",
+    "reading": "あいだ",
+    "english": "a space",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "合う",
+    "reading": "あう",
+    "english": "to match",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "上る",
+    "reading": "あがる",
+    "english": "to rise",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "赤ん坊",
+    "reading": "あかんぼう",
+    "english": "baby",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "空く",
+    "reading": "あく",
+    "english": "to open, to become empty",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "浅い",
+    "reading": "あさい",
+    "english": "shallow,superficial",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "味",
+    "reading": "あじ",
+    "english": "flavour",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "明日",
+    "reading": "あす",
+    "english": "tomorrow",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "遊び",
+    "reading": "あそび",
+    "english": "play",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "集る",
+    "reading": "あつまる",
+    "english": "to gather",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "集める",
+    "reading": "あつめる",
+    "english": "to collect something",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "謝る",
+    "reading": "あやまる",
+    "english": "to apologize",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "安心",
+    "reading": "あんしん",
+    "english": "relief",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "安全",
+    "reading": "あんぜん",
+    "english": "safety",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "案内",
+    "reading": "あんない・する",
+    "english": "to guide",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "以下",
+    "reading": "いか",
+    "english": "less than",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "以外",
+    "reading": "いがい",
+    "english": "with the exception of",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "医学",
+    "reading": "いがく",
+    "english": "medical science",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "生きる",
+    "reading": "いきる",
+    "english": "to live",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "意見",
+    "reading": "いけん",
+    "english": "opinion",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "石",
+    "reading": "いし",
+    "english": "stone",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "以上",
+    "reading": "いじょう",
+    "english": "more than,this is all",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "急ぐ",
+    "reading": "いそぐ",
+    "english": "to hurry",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "致す",
+    "reading": "いたす",
+    "english": "(humble) to do",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "一度",
+    "reading": "いちど",
+    "english": "once",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "一生懸命",
+    "reading": "いっしょうけんめい",
+    "english": "with utmost effort",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "糸",
+    "reading": "いと",
+    "english": "thread",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "以内",
+    "reading": "いない",
+    "english": "within",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "田舎",
+    "reading": "いなか",
+    "english": "countryside",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "祈る",
+    "reading": "いのる",
+    "english": "to pray",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "植える",
+    "reading": "うえる",
+    "english": "to plant,to grow",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "受付",
+    "reading": "うけつけ",
+    "english": "receipt",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "受ける",
+    "reading": "うける",
+    "english": "to take a lesson or test",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "動く",
+    "reading": "うごく",
+    "english": "to move",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "打つ",
+    "reading": "うつ",
+    "english": "to hit",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "美しい",
+    "reading": "うつくしい",
+    "english": "beautiful",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "写す",
+    "reading": "うつす",
+    "english": "to copy or photograph",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "移る",
+    "reading": "うつる",
+    "english": "to move house or transfer",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "腕",
+    "reading": "うで",
+    "english": "arm",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "裏",
+    "reading": "うら",
+    "english": "reverse side",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "売り場",
+    "reading": "うりば",
+    "english": "place where things are sold",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "運転",
+    "reading": "うんてん・する",
+    "english": "to drive",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "運転手",
+    "reading": "うんてんしゅ",
+    "english": "driver",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "運動",
+    "reading": "うんどう・する",
+    "english": "to exercise",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "枝",
+    "reading": "えだ",
+    "english": "branch, twig",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "選ぶ",
+    "reading": "えらぶ",
+    "english": "to choose",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "遠慮",
+    "reading": "えんりょ・する",
+    "english": "to be reserved, to be restrained",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "お祝い",
+    "reading": "おいわい",
+    "english": "congratulation",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "億",
+    "reading": "おく",
+    "english": "one hundred million",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "屋上",
+    "reading": "おくじょう",
+    "english": "rooftop",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "贈り物",
+    "reading": "おくりもの",
+    "english": "gift",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "送る",
+    "reading": "おくる",
+    "english": "to send",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "遅れる",
+    "reading": "おくれる",
+    "english": "to be late",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "起す",
+    "reading": "おこす",
+    "english": "to wake",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "行う",
+    "reading": "おこなう",
+    "english": "to do",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "怒る",
+    "reading": "おこる",
+    "english": "to get angry,to be angry",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "押し入れ",
+    "reading": "おしいれ",
+    "english": "closet",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "お嬢さん",
+    "reading": "おじょうさん",
+    "english": "young lady",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "お宅",
+    "reading": "おたく",
+    "english": "(polite) your house",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "落る",
+    "reading": "おちる",
+    "english": "to fall or drop",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "夫",
+    "reading": "おっと",
+    "english": "husband",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "音",
+    "reading": "おと",
+    "english": "sound,note",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "落す",
+    "reading": "おとす",
+    "english": "to drop",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "踊り",
+    "reading": "おどり",
+    "english": "a dance",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "踊る",
+    "reading": "おどる",
+    "english": "to dance",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "驚く",
+    "reading": "おどろく",
+    "english": "to be surprised",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "お祭り",
+    "reading": "おまつり",
+    "english": "festival",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "お見舞い",
+    "reading": "おみまい",
+    "english": "calling on someone who is ill,enquiry",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "お土産",
+    "reading": "おみやげ",
+    "english": "souvenir",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "思い出す",
+    "reading": "おもいだす",
+    "english": "to remember",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "思う",
+    "reading": "おもう",
+    "english": "to think,to feel",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "表",
+    "reading": "おもて",
+    "english": "the front",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "親",
+    "reading": "おや",
+    "english": "parents",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "下りる",
+    "reading": "おりる",
+    "english": "to get off",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "折る",
+    "reading": "おる",
+    "english": "to break or to fold",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "お礼",
+    "reading": "おれい",
+    "english": "expression of gratitude",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "折れる",
+    "reading": "おれる",
+    "english": "to break or be folded",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "終わり",
+    "reading": "おわり",
+    "english": "the end",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "海岸",
+    "reading": "かいがん",
+    "english": "coast",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "会議",
+    "reading": "かいぎ",
+    "english": "meeting",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "会議室",
+    "reading": "かいぎしつ",
+    "english": "meeting room",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "会場",
+    "reading": "かいじょう",
+    "english": "assembly hall or meeting place",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "会話",
+    "reading": "かいわ",
+    "english": "conversation",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "帰り",
+    "reading": "かえり",
+    "english": "return",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "変える",
+    "reading": "かえる",
+    "english": "to change",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "科学",
+    "reading": "かがく",
+    "english": "science",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "鏡",
+    "reading": "かがみ",
+    "english": "mirror",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "掛ける",
+    "reading": "かける",
+    "english": "to hang something",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "飾る",
+    "reading": "かざる",
+    "english": "to decorate",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "火事",
+    "reading": "かじ",
+    "english": "fire",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "堅/硬/固い",
+    "reading": "かたい",
+    "english": "hard",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "形",
+    "reading": "かたち",
+    "english": "shape",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "片付ける",
+    "reading": "かたづける",
+    "english": "to tidy up",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "課長",
+    "reading": "かちょう",
+    "english": "section manager",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "勝つ",
+    "reading": "かつ",
+    "english": "to win",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "家内",
+    "reading": "かない",
+    "english": "housewife",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "悲しい",
+    "reading": "かなしい",
+    "english": "sad",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "必ず",
+    "reading": "かならず",
+    "english": "certainly,necessarily",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "お・金持ち",
+    "reading": "かねもち/おかねもち",
+    "english": "rich man",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "彼女",
+    "reading": "かのじょ",
+    "english": "she,girlfriend",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "壁",
+    "reading": "かべ",
+    "english": "wall",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "髪",
+    "reading": "かみ",
+    "english": "hair",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "噛む",
+    "reading": "かむ",
+    "english": "to bite,to chew",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "通う",
+    "reading": "かよう",
+    "english": "to commute",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "彼",
+    "reading": "かれ",
+    "english": "he,boyfriend",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "彼ら",
+    "reading": "かれら",
+    "english": "they",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "乾く",
+    "reading": "かわく",
+    "english": "to get dry",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "代わり",
+    "reading": "かわり",
+    "english": "substitute,alternate",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "変わる",
+    "reading": "かわる",
+    "english": "to change",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "考える",
+    "reading": "かんがえる",
+    "english": "to consider",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "関係",
+    "reading": "かんけい",
+    "english": "relationship",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "看護婦",
+    "reading": "かんごふ",
+    "english": "female nurse",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "簡単",
+    "reading": "かんたん",
+    "english": "simple",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "気",
+    "reading": "き",
+    "english": "spirit,mood",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "機会",
+    "reading": "きかい",
+    "english": "opportunity",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "危険",
+    "reading": "きけん",
+    "english": "danger",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "聞こえる",
+    "reading": "きこえる",
+    "english": "to be heard",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "汽車",
+    "reading": "きしゃ",
+    "english": "steam train",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "技術",
+    "reading": "ぎじゅつ",
+    "english": "art,technology,skill",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "季節",
+    "reading": "きせつ",
+    "english": "season",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "規則",
+    "reading": "きそく",
+    "english": "regulations",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "絹",
+    "reading": "きぬ",
+    "english": "silk",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "厳しい",
+    "reading": "きびしい",
+    "english": "strict",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "気分",
+    "reading": "きぶん",
+    "english": "mood",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "決る",
+    "reading": "きまる",
+    "english": "to be decided",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "君",
+    "reading": "きみ",
+    "english": "(informal) You (used by men towards women)",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "決める",
+    "reading": "きめる",
+    "english": "to decide",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "気持ち",
+    "reading": "きもち",
+    "english": "feeling,mood",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "着物",
+    "reading": "きもの",
+    "english": "kimono",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "客",
+    "reading": "きゃく",
+    "english": "guest,customer",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "急",
+    "reading": "きゅう",
+    "english": "urgent, steep",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "急行",
+    "reading": "きゅうこう",
+    "english": "speedy, express",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "教育",
+    "reading": "きょういく",
+    "english": "education",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "教会",
+    "reading": "きょうかい",
+    "english": "church",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "競争",
+    "reading": "きょうそう",
+    "english": "competition",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "興味",
+    "reading": "きょうみ",
+    "english": "an interest",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "近所",
+    "reading": "きんじょ",
+    "english": "neighbourhood",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "具合",
+    "reading": "ぐあい",
+    "english": "condition,health",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "空気",
+    "reading": "くうき",
+    "english": "air,atmosphere",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "空港",
+    "reading": "くうこう",
+    "english": "airport",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "草",
+    "reading": "くさ",
+    "english": "grass",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "首",
+    "reading": "くび",
+    "english": "neck",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "雲",
+    "reading": "くも",
+    "english": "cloud",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "比べる",
+    "reading": "くらべる",
+    "english": "to compare",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "暮れる",
+    "reading": "くれる",
+    "english": "to get dark,to come to an end",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "君",
+    "reading": "くん",
+    "english": "suffix for familiar young male",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "毛",
+    "reading": "け",
+    "english": "hair or fur",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "計画",
+    "reading": "けいかく・する",
+    "english": "to plan",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "経験",
+    "reading": "けいけん・する",
+    "english": "to experience",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "経済",
+    "reading": "けいざい",
+    "english": "finance,economy",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "警察",
+    "reading": "けいさつ",
+    "english": "police",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "景色",
+    "reading": "けしき",
+    "english": "scene,landscape",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "消しゴム",
+    "reading": "けしゴム",
+    "english": "eraser",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "下宿",
+    "reading": "げしゅく",
+    "english": "lodging",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "決して",
+    "reading": "けっして",
+    "english": "never",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "原因",
+    "reading": "げんいん",
+    "english": "cause,source",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "研究",
+    "reading": "けんきゅう",
+    "english": "research",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "研究室",
+    "reading": "けんきゅうしつ",
+    "english": "study room,laboratory",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "見物",
+    "reading": "けんぶつ",
+    "english": "sightseeing",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "子",
+    "reading": "こ",
+    "english": "child",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "郊外",
+    "reading": "こうがい",
+    "english": "outskirts",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "講義",
+    "reading": "こうぎ",
+    "english": "lecture",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "工業",
+    "reading": "こうぎょう",
+    "english": "the manufacturing industry",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "高校",
+    "reading": "こうこう",
+    "english": "high school",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "高校生",
+    "reading": "こうこうせい",
+    "english": "high school student",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "工場",
+    "reading": "こうじょう",
+    "english": "factory",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "校長",
+    "reading": "こうちょう",
+    "english": "headmaster",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "交通",
+    "reading": "こうつう",
+    "english": "traffic,transportation",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "講堂",
+    "reading": "こうどう",
+    "english": "auditorium",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "高等学校",
+    "reading": "こうとうがっこう",
+    "english": "high school",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "公務員",
+    "reading": "こうむいん",
+    "english": "government worker",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "国際",
+    "reading": "こくさい",
+    "english": "international",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "心",
+    "reading": "こころ",
+    "english": "core,heart",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "御主人",
+    "reading": "ごしゅじん",
+    "english": "(honorable) your husband",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "故障",
+    "reading": "こしょう・する",
+    "english": "to break-down",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "ご存じ",
+    "reading": "ごぞんじ",
+    "english": "knowing,acquaintance",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "答",
+    "reading": "こたえ",
+    "english": "response",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "小鳥",
+    "reading": "ことり",
+    "english": "small bird",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "細かい",
+    "reading": "こまかい",
+    "english": "small, fine",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "込む",
+    "reading": "こむ",
+    "english": "to be crowded",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "米",
+    "reading": "こめ",
+    "english": "uncooked rice",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "怖い",
+    "reading": "こわい",
+    "english": "frightening",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "壊す",
+    "reading": "こわす",
+    "english": "to break",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "壊れる",
+    "reading": "こわれる",
+    "english": "to be broken",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "今度",
+    "reading": "こんど",
+    "english": "now,next time",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "今夜",
+    "reading": "こんや",
+    "english": "tonight",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "最近",
+    "reading": "さいきん",
+    "english": "latest,nowadays",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "最後",
+    "reading": "さいご",
+    "english": "last,end",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "最初",
+    "reading": "さいしょ",
+    "english": "beginning,first",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "坂",
+    "reading": "さか",
+    "english": "slope,hill",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "探す",
+    "reading": "さがす",
+    "english": "to look for",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "下る",
+    "reading": "さがる",
+    "english": "to get down,to descend",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "盛ん",
+    "reading": "さかん",
+    "english": "popularity,prosperous",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "下げる",
+    "reading": "さげる",
+    "english": "to hang,to lower,to move back",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "差し上げる",
+    "reading": "さしあげる",
+    "english": "(polite) to give",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "寂しい",
+    "reading": "さびしい",
+    "english": "lonely",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "さ来月",
+    "reading": "さらいげつ",
+    "english": "the month after next",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "さ来週",
+    "reading": "さらいしゅう",
+    "english": "the week after next",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "騒ぐ",
+    "reading": "さわぐ",
+    "english": "to make noise,to be excited",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "触る",
+    "reading": "さわる",
+    "english": "to touch",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "産業",
+    "reading": "さんぎょう",
+    "english": "industry",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "残念",
+    "reading": "ざんねん",
+    "english": "disappointment",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "市",
+    "reading": "し",
+    "english": "city",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "字",
+    "reading": "じ",
+    "english": "character",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "試合",
+    "reading": "しあい",
+    "english": "match,game",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "仕方",
+    "reading": "しかた",
+    "english": "method",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "試験",
+    "reading": "しけん",
+    "english": "examination",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "事故",
+    "reading": "じこ",
+    "english": "accident",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "地震",
+    "reading": "じしん",
+    "english": "earthquake",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "時代",
+    "reading": "じだい",
+    "english": "era",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "下着",
+    "reading": "したぎ",
+    "english": "underwear",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "支度",
+    "reading": "したく・する",
+    "english": "to prepare",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "失敗",
+    "reading": "しっぱい",
+    "english": "failure,mistake",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "辞典",
+    "reading": "じてん",
+    "english": "dictionary",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "品物",
+    "reading": "しなもの",
+    "english": "goods",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "島",
+    "reading": "しま",
+    "english": "island",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "市民",
+    "reading": "しみん",
+    "english": "citizen",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "事務所",
+    "reading": "じむしょ",
+    "english": "office",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "社会",
+    "reading": "しゃかい",
+    "english": "society,public",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "社長",
+    "reading": "しゃちょう",
+    "english": "company president",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "自由",
+    "reading": "じゆう",
+    "english": "freedom",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "習慣",
+    "reading": "しゅうかん",
+    "english": "custom,manners",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "住所",
+    "reading": "じゅうしょ",
+    "english": "an address,a residence",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "柔道",
+    "reading": "じゅうどう",
+    "english": "judo",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "十分",
+    "reading": "じゅうぶん",
+    "english": "enough",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "出席",
+    "reading": "しゅっせき・する",
+    "english": "to attend",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "出発",
+    "reading": "しゅっぱつ・する",
+    "english": "to depart",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "趣味",
+    "reading": "しゅみ",
+    "english": "hobby",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "準備",
+    "reading": "じゅんび・する",
+    "english": "to prepare",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "紹介",
+    "reading": "しょうかい",
+    "english": "introduction",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "小学校",
+    "reading": "しょうがっこう",
+    "english": "elementary school",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "小説",
+    "reading": "しょうせつ",
+    "english": "novel",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "招待",
+    "reading": "しょうたい・する",
+    "english": "to invite",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "承知",
+    "reading": "しょうち・する",
+    "english": "to consent",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "将来",
+    "reading": "しょうらい",
+    "english": "future,prospects",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "食事",
+    "reading": "しょくじ・する",
+    "english": "to have a meal",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "食料品",
+    "reading": "しょくりょうひん",
+    "english": "groceries",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "女性",
+    "reading": "じょせい",
+    "english": "woman",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "知らせる",
+    "reading": "しらせる",
+    "english": "to notify",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "調べる",
+    "reading": "しらべる",
+    "english": "to investigate",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "人口",
+    "reading": "じんこう",
+    "english": "population",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "神社",
+    "reading": "じんじゃ",
+    "english": "Shinto shrine",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "親切",
+    "reading": "しんせつ",
+    "english": "kindness",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "心配",
+    "reading": "しんぱい・する",
+    "english": "to worry",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "新聞社",
+    "reading": "しんぶんしゃ",
+    "english": "newspaper company",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "水泳",
+    "reading": "すいえい",
+    "english": "swimming",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "水道",
+    "reading": "すいどう",
+    "english": "water supply",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "数学",
+    "reading": "すうがく",
+    "english": "mathematics,arithmetic",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "過ぎる",
+    "reading": "すぎる",
+    "english": "to exceed",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "凄い",
+    "reading": "すごい",
+    "english": "terrific",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "進む",
+    "reading": "すすむ",
+    "english": "to make progress",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "捨てる",
+    "reading": "すてる",
+    "english": "to throw away",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "砂",
+    "reading": "すな",
+    "english": "sand",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "滑る",
+    "reading": "すべる",
+    "english": "to slide,to slip",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "隅",
+    "reading": "すみ",
+    "english": "corner,nook",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "済む",
+    "reading": "すむ",
+    "english": "to finish",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "生活",
+    "reading": "せいかつ・する",
+    "english": "to live",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "生産",
+    "reading": "せいさん・する",
+    "english": "to produce",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "政治",
+    "reading": "せいじ",
+    "english": "politics,government",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "西洋",
+    "reading": "せいよう",
+    "english": "western countries",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "世界",
+    "reading": "せかい",
+    "english": "the world",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "席",
+    "reading": "せき",
+    "english": "seat",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "説明",
+    "reading": "せつめい",
+    "english": "explanation",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "背中",
+    "reading": "せなか",
+    "english": "back of the body",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "世話",
+    "reading": "せわ・する",
+    "english": "to look after",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "線",
+    "reading": "せん",
+    "english": "line",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "戦争",
+    "reading": "せんそう",
+    "english": "war",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "先輩",
+    "reading": "せんぱい",
+    "english": "senior",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "相談",
+    "reading": "そうだん・する",
+    "english": "to discuss",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "育てる",
+    "reading": "そだてる",
+    "english": "to rear,to bring up",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "卒業",
+    "reading": "そつぎょう",
+    "english": "graduation",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "祖父",
+    "reading": "そふ",
+    "english": "grandfather",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "祖母",
+    "reading": "そぼ",
+    "english": "grandmother",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "退院",
+    "reading": "たいいん・する",
+    "english": "to leave hospital",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "大学生",
+    "reading": "だいがくせい",
+    "english": "university student",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "大事",
+    "reading": "だいじ",
+    "english": "important,valuable,serious matter",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "大体",
+    "reading": "だいたい",
+    "english": "generally",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "大分",
+    "reading": "だいぶ",
+    "english": "greatly",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "台風",
+    "reading": "たいふう",
+    "english": "typhoon",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "倒れる",
+    "reading": "たおれる",
+    "english": "to break down",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "確か",
+    "reading": "たしか",
+    "english": "definite",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "足す",
+    "reading": "たす",
+    "english": "to add a number",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "訪ねる",
+    "reading": "たずねる",
+    "english": "to visit",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "尋ねる",
+    "reading": "たずねる",
+    "english": "to ask",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "正しい",
+    "reading": "ただしい",
+    "english": "correct",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "畳",
+    "reading": "たたみ",
+    "english": "Japanese straw mat",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "立てる",
+    "reading": "たてる",
+    "english": "to stand something up",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "建てる",
+    "reading": "たてる",
+    "english": "to build",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "例えば",
+    "reading": "たとえば",
+    "english": "for example",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "棚",
+    "reading": "たな",
+    "english": "shelves",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "楽しみ",
+    "reading": "たのしみ",
+    "english": "joy",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "楽む",
+    "reading": "たのしむ",
+    "english": "to enjoy oneself",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "為",
+    "reading": "ため",
+    "english": "in order to",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "足りる",
+    "reading": "たりる",
+    "english": "to be enough",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "男性",
+    "reading": "だんせい",
+    "english": "male",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "暖房",
+    "reading": "だんぼう",
+    "english": "heating",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "血",
+    "reading": "ち",
+    "english": "blood",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "力",
+    "reading": "ちから",
+    "english": "strength,power",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "注意",
+    "reading": "ちゅうい",
+    "english": "caution",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "中学校",
+    "reading": "ちゅうがっこう",
+    "english": "junior high school,middle school",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "注射",
+    "reading": "ちゅうしゃ",
+    "english": "injection",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "駐車場",
+    "reading": "ちゅうしゃじょう",
+    "english": "parking lot",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "地理",
+    "reading": "ちり",
+    "english": "geography",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "捕まえる",
+    "reading": "つかまえる",
+    "english": "to seize",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "付く",
+    "reading": "つく",
+    "english": "to be attached",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "漬ける",
+    "reading": "つける",
+    "english": "to soak,to pickle",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "都合",
+    "reading": "つごう",
+    "english": "circumstances,convenience",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "伝える",
+    "reading": "つたえる",
+    "english": "to report",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "続く",
+    "reading": "つづく",
+    "english": "to be continued",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "続ける",
+    "reading": "つづける",
+    "english": "to continue",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "包む",
+    "reading": "つつむ",
+    "english": "to wrap",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "妻",
+    "reading": "つま",
+    "english": "(humble) wife",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "釣る",
+    "reading": "つる",
+    "english": "to fish",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "連れる",
+    "reading": "つれる",
+    "english": "to lead",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "丁寧",
+    "reading": "ていねい",
+    "english": "polite",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "適当",
+    "reading": "てきとう",
+    "english": "suitability",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "手伝う",
+    "reading": "てつだう",
+    "english": "to assist",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "手袋",
+    "reading": "てぶくろ",
+    "english": "glove",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "寺",
+    "reading": "てら",
+    "english": "temple",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "点",
+    "reading": "てん",
+    "english": "point,dot",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "店員",
+    "reading": "てんいん",
+    "english": "shop assistant",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "天気予報",
+    "reading": "てんきよほう",
+    "english": "weather forecast",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "電灯",
+    "reading": "でんとう",
+    "english": "electric light",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "電報",
+    "reading": "でんぽう",
+    "english": "telegram",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "展覧会",
+    "reading": "てんらんかい",
+    "english": "exhibition",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "都",
+    "reading": "と",
+    "english": "metropolitan",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "道具",
+    "reading": "どうぐ",
+    "english": "tool,means",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "動物園",
+    "reading": "どうぶつえん",
+    "english": "zoo",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "遠く",
+    "reading": "とおく",
+    "english": "distant",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "通る",
+    "reading": "とおる",
+    "english": "to go through",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "特に",
+    "reading": "とくに",
+    "english": "particularly,especially",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "特別",
+    "reading": "とくべつ",
+    "english": "special",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "途中",
+    "reading": "とちゅう",
+    "english": "on the way",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "特急",
+    "reading": "とっきゅう",
+    "english": "limited express train (faster than an express train)",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "届ける",
+    "reading": "とどける",
+    "english": "to reach",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "泊まる",
+    "reading": "とまる",
+    "english": "to lodge at",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "止める",
+    "reading": "とめる",
+    "english": "to stop something",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "取り替える",
+    "reading": "とりかえる",
+    "english": "to exchange",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "泥棒",
+    "reading": "どろぼう",
+    "english": "thief",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "直す",
+    "reading": "なおす",
+    "english": "to fix,to repair",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "直る",
+    "reading": "なおる",
+    "english": "to be fixed,to be repaired",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "治る",
+    "reading": "なおる",
+    "english": "to be cured,to heal",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "中々",
+    "reading": "なかなか",
+    "english": "considerably",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "泣く",
+    "reading": "なく",
+    "english": "to weep",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "無くなる",
+    "reading": "なくなる",
+    "english": "to disappear,to get lost",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "亡くなる",
+    "reading": "なくなる",
+    "english": "to die",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "投げる",
+    "reading": "なげる",
+    "english": "to throw or cast away",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "鳴る",
+    "reading": "なる",
+    "english": "to sound",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "慣れる",
+    "reading": "なれる",
+    "english": "to grow accustomed to",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "苦い",
+    "reading": "にがい",
+    "english": "bitter",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "二階建て",
+    "reading": "にかいだて",
+    "english": "two storied",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "逃げる",
+    "reading": "にげる",
+    "english": "to escape",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "日記",
+    "reading": "にっき",
+    "english": "journal",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "入院",
+    "reading": "にゅういん・する",
+    "english": "to hospitalise",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "入学",
+    "reading": "にゅうがく・する",
+    "english": "to enter school or university",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "似る",
+    "reading": "にる",
+    "english": "to be similar",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "人形",
+    "reading": "にんぎょう",
+    "english": "doll, figure",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "盗む",
+    "reading": "ぬすむ",
+    "english": "to steal",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "塗る",
+    "reading": "ぬる",
+    "english": "to paint,to plaster",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "熱",
+    "reading": "ねつ",
+    "english": "fever",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "寝坊",
+    "reading": "ねぼう",
+    "english": "sleeping in late",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "眠い",
+    "reading": "ねむい",
+    "english": "sleepy",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "眠る",
+    "reading": "ねむる",
+    "english": "to sleep",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "残る",
+    "reading": "のこる",
+    "english": "to remain",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "乗り換える",
+    "reading": "のりかえる",
+    "english": "to change between buses or trains",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "乗り物",
+    "reading": "のりもの",
+    "english": "vehicle",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "葉",
+    "reading": "は",
+    "english": "leaf",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "場合",
+    "reading": "ばあい",
+    "english": "situation",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "倍",
+    "reading": "ばい",
+    "english": "double",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "拝見",
+    "reading": "はいけん・する",
+    "english": "(humble) to look at",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "歯医者",
+    "reading": "はいしゃ",
+    "english": "dentist",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "運ぶ",
+    "reading": "はこぶ",
+    "english": "to transport",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "始める",
+    "reading": "はじめる",
+    "english": "to begin",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "場所",
+    "reading": "ばしょ",
+    "english": "location",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "恥ずかしい",
+    "reading": "はずかしい",
+    "english": "embarrassed",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "発音",
+    "reading": "はつおん",
+    "english": "pronunciation",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "花見",
+    "reading": "はなみ",
+    "english": "cherry-blossom viewing",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "林",
+    "reading": "はやし",
+    "english": "woods,forester",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "払う",
+    "reading": "はらう",
+    "english": "to pay",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "番組",
+    "reading": "ばんぐみ",
+    "english": "television or radio program",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "反対",
+    "reading": "はんたい",
+    "english": "opposition",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "日",
+    "reading": "ひ",
+    "english": "day, sun",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "火",
+    "reading": "ひ",
+    "english": "fire",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "冷える",
+    "reading": "ひえる",
+    "english": "to grow cold",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "光",
+    "reading": "ひかり",
+    "english": "light",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "光る",
+    "reading": "ひかる",
+    "english": "to shine,to glitter",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "引き出し",
+    "reading": "ひきだし",
+    "english": "drawer,drawing out",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "引き出す",
+    "reading": "ひきだす",
+    "english": "to withdraw",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "飛行場",
+    "reading": "ひこうじょう",
+    "english": "airport",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "久しぶり",
+    "reading": "ひさしぶり",
+    "english": "after a long time",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "美術館",
+    "reading": "びじゅつかん",
+    "english": "art gallery",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "非常に",
+    "reading": "ひじょうに",
+    "english": "extremely",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "引っ越す",
+    "reading": "ひっこす",
+    "english": "to move house",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "必要",
+    "reading": "ひつよう",
+    "english": "necessary",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "開く",
+    "reading": "ひらく",
+    "english": "to open an event",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "昼間",
+    "reading": "ひるま",
+    "english": "daytime,during the day",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "昼休み",
+    "reading": "ひるやすみ",
+    "english": "noon break",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "拾う",
+    "reading": "ひろう",
+    "english": "to pick up,to gather",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "増える",
+    "reading": "ふえる",
+    "english": "to increase",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "深い",
+    "reading": "ふかい",
+    "english": "deep",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "複雑",
+    "reading": "ふくざつ",
+    "english": "complexity,complication",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "復習",
+    "reading": "ふくしゅう",
+    "english": "revision",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "部長",
+    "reading": "ぶちょう",
+    "english": "head of a section",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "普通",
+    "reading": "ふつう",
+    "english": "usually, or a train that stops at every station",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "太る",
+    "reading": "ふとる",
+    "english": "to become fat",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "布団",
+    "reading": "ふとん",
+    "english": "Japanese bedding, futon",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "舟",
+    "reading": "ふね",
+    "english": "ship",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "不便",
+    "reading": "ふべん",
+    "english": "inconvenience",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "踏む",
+    "reading": "ふむ",
+    "english": "to step on",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "降り出す",
+    "reading": "ふりだす",
+    "english": "to start to rain",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "文化",
+    "reading": "ぶんか",
+    "english": "culture",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "文学",
+    "reading": "ぶんがく",
+    "english": "literature",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "文法",
+    "reading": "ぶんぽう",
+    "english": "grammar",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "別",
+    "reading": "べつ",
+    "english": "different",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "変",
+    "reading": "へん",
+    "english": "strange",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "返事",
+    "reading": "へんじ",
+    "english": "reply",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "貿易",
+    "reading": "ぼうえき",
+    "english": "trade",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "放送",
+    "reading": "ほうそう・する",
+    "english": "to broadcast",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "法律",
+    "reading": "ほうりつ",
+    "english": "law",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "僕",
+    "reading": "ぼく",
+    "english": "I (used by males)",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "星",
+    "reading": "ほし",
+    "english": "star",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "翻訳",
+    "reading": "ほんやく",
+    "english": "translation",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "参る",
+    "reading": "まいる",
+    "english": "(humble) to go,to come",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "負ける",
+    "reading": "まける",
+    "english": "to lose",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "間違える",
+    "reading": "まちがえる",
+    "english": "to make a mistake",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "間に合う",
+    "reading": "まにあう",
+    "english": "to be in time for",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "周り",
+    "reading": "まわり",
+    "english": "surroundings",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "回る",
+    "reading": "まわる",
+    "english": "to go around",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "漫画",
+    "reading": "まんが",
+    "english": "comic",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "真中",
+    "reading": "まんなか",
+    "english": "middle",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "見える",
+    "reading": "みえる",
+    "english": "to be in sight",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "湖",
+    "reading": "みずうみ",
+    "english": "lake",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "味噌",
+    "reading": "みそ",
+    "english": "bean paste",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "見つかる",
+    "reading": "みつかる",
+    "english": "to be discovered",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "見つける",
+    "reading": "みつける",
+    "english": "to discover",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "皆",
+    "reading": "みな",
+    "english": "everybody",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "港",
+    "reading": "みなと",
+    "english": "harbour",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "向かう",
+    "reading": "むかう",
+    "english": "to face",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "迎える",
+    "reading": "むかえる",
+    "english": "to go out to meet",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "昔",
+    "reading": "むかし",
+    "english": "olden days, former",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "虫",
+    "reading": "むし",
+    "english": "insect",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "息子",
+    "reading": "むすこ",
+    "english": "(humble) son",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "娘",
+    "reading": "むすめ",
+    "english": "(humble) daughter",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "無理",
+    "reading": "むり",
+    "english": "impossible",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "召し上がる",
+    "reading": "めしあがる",
+    "english": "(polite) to eat",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "珍しい",
+    "reading": "めずらしい",
+    "english": "rare",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "申し上げる",
+    "reading": "もうしあげる",
+    "english": "(humble) to say,to tell",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "申す",
+    "reading": "もうす",
+    "english": "(humble) to be called,to say",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "戻る",
+    "reading": "もどる",
+    "english": "to turn back",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "木綿",
+    "reading": "もめん",
+    "english": "cotton",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "森",
+    "reading": "もり",
+    "english": "forest",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "焼く",
+    "reading": "やく",
+    "english": "to bake,to grill",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "約束",
+    "reading": "やくそく",
+    "english": "promise",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "役に立つ",
+    "reading": "やくにたつ",
+    "english": "to be helpful",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "焼ける",
+    "reading": "やける",
+    "english": "to burn,to be roasted",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "優しい",
+    "reading": "やさしい",
+    "english": "kind",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "痩せる",
+    "reading": "やせる",
+    "english": "to become thin",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "止む",
+    "reading": "やむ",
+    "english": "to stop",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "止める",
+    "reading": "やめる",
+    "english": "to stop",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "柔らかい",
+    "reading": "やわらかい",
+    "english": "soft",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "湯",
+    "reading": "ゆ",
+    "english": "hot water",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "輸出",
+    "reading": "ゆしゅつ・する",
+    "english": "to export",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "輸入",
+    "reading": "ゆにゅう・する",
+    "english": "to import",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "指",
+    "reading": "ゆび",
+    "english": "finger",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "指輪",
+    "reading": "ゆびわ",
+    "english": "finger ring",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "夢",
+    "reading": "ゆめ",
+    "english": "dream",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "揺れる",
+    "reading": "ゆれる",
+    "english": "to shake,to sway",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "用",
+    "reading": "よう",
+    "english": "use",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "用意",
+    "reading": "ようい",
+    "english": "preparation",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "用事",
+    "reading": "ようじ",
+    "english": "things to do",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "汚れる",
+    "reading": "よごれる",
+    "english": "to get dirty",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "予習",
+    "reading": "よしゅう",
+    "english": "preparation for a lesson",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "予定",
+    "reading": "よてい",
+    "english": "arrangement",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "予約",
+    "reading": "よやく",
+    "english": "reservation",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "寄る",
+    "reading": "よる",
+    "english": "to visit",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "喜ぶ",
+    "reading": "よろこぶ",
+    "english": "to be delighted",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "理由",
+    "reading": "りゆう",
+    "english": "reason",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "利用",
+    "reading": "りよう",
+    "english": "utilization",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "両方",
+    "reading": "りょうほう",
+    "english": "both sides",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "旅館",
+    "reading": "りょかん",
+    "english": "Japanese hotel",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "留守",
+    "reading": "るす",
+    "english": "absence",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "冷房",
+    "reading": "れいぼう",
+    "english": "air conditioning",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "歴史",
+    "reading": "れきし",
+    "english": "history",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "連絡",
+    "reading": "れんらく",
+    "english": "contact",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "沸かす",
+    "reading": "わかす",
+    "english": "to boil,to heat",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "別れる",
+    "reading": "わかれる",
+    "english": "to separate",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "沸く",
+    "reading": "わく",
+    "english": "to boil, to grow hot,to get excited",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "訳",
+    "reading": "わけ",
+    "english": "meaning,reason",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "忘れ物",
+    "reading": "わすれもの",
+    "english": "lost article",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "笑う",
+    "reading": "わらう",
+    "english": "to laugh,to smile",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "割合",
+    "reading": "わりあい",
+    "english": "rate,ratio,percentage",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "割れる",
+    "reading": "われる",
+    "english": "to break",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  },
+  {
+    "japanese": "泳ぎ方",
+    "reading": "およぎかた",
+    "english": "way of swimming",
+    "jlpt_level": "N4",
+    "part_of_speech": "",
+    "example_sentence": null
+  }
+]
