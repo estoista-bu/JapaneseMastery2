@@ -61,18 +61,15 @@ class JlptController extends Controller
     /**
      * Get a specific deck with its words
      */
-    public function getDeck(string $slug): JsonResponse
+    public function getDeck(int $id): JsonResponse
     {
-        $deck = Deck::where('slug', $slug)
-            ->with('words')
-            ->first();
-
+        $deck = Deck::find($id);
         if (!$deck) {
             return response()->json([
                 'message' => 'Deck not found'
             ], 404);
         }
-
+        $deck->load('words');
         return response()->json([
             'deck' => $deck
         ]);
@@ -163,89 +160,87 @@ class JlptController extends Controller
     {
         // Set execution time limit to 10 minutes
         set_time_limit(600);
-        
         try {
             \Log::info('selectWordsForDeck called', [
                 'request_data' => $request->all(),
                 'user_id' => auth()->id(),
                 'deck_slug_received' => $request->input('deck_slug')
             ]);
-        
-        $request->validate([
-            'deck_slug' => 'required|string',
-            'deck_title' => 'required|string',
-            'num' => 'required|integer|min:1|max:100',
-        ]);
 
-        $user = auth()->user();
-        if (!$user) {
-            return response()->json([
-                'message' => 'User not authenticated'
-            ], 401);
-        }
-
-        $deck = Deck::where('slug', $request->deck_slug)->first();
-        if (!$deck) {
-            \Log::warning('selectWordsForDeck: Deck not found', [
-                'deck_slug' => $request->deck_slug,
-                'available_slugs' => Deck::pluck('slug')->toArray()
+            $request->validate([
+                'deck_slug' => 'required|string',
+                'num' => 'required|integer|min:1|max:100',
             ]);
+
+            $user = auth()->user();
+            if (!$user) {
+                return response()->json([
+                    'message' => 'User not authenticated'
+                ], 401);
+            }
+
+            $deck = Deck::where('slug', $request->deck_slug)->first();
+            if (!$deck) {
+                \Log::warning('selectWordsForDeck: Deck not found', [
+                    'deck_slug' => $request->deck_slug,
+                    'available_slugs' => Deck::pluck('slug')->toArray()
+                ]);
+                return response()->json([
+                    'message' => 'Deck not found',
+                    'deck_slug' => $request->deck_slug
+                ], 404);
+            }
+
+            // Only allow selection for user decks
+            if ($deck->category !== 'user' || $deck->user_id !== $user->id) {
+                return response()->json([
+                    'message' => 'Unauthorized to select words for this deck'
+                ], 403);
+            }
+
+            $numRequested = $request->num;
+            $deckTitle = $request->deck_title;
+
+            // Get existing word IDs in this deck to avoid duplicates
+            $existingWordIds = $deck->words()->pluck('words.id')->toArray();
+
+            // Build query for word selection
+            $query = Word::query();
+
+            // Apply JLPT level filter if deck has JLPT level
+            if ($deck->jlpt_level) {
+                $query->where('jlpt_level', $deck->jlpt_level);
+            }
+
+            // Exclude words already in the deck
+            if (!empty($existingWordIds)) {
+                $query->whereNotIn('id', $existingWordIds);
+            }
+
+            // Use semantic search to select relevant words
+            $selectedWords = $this->selectWordsWithSemanticSearch($query, $deckTitle, $numRequested, $existingWordIds);
+
+            // Calculate total available words with current constraints
+            $totalAvailable = $this->getTotalAvailableWords($deck, $existingWordIds);
+
+            \Log::info('selectWordsForDeck: Final results', [
+                'words_picked' => count($selectedWords),
+                'requested_num' => $numRequested,
+                'total_available' => $totalAvailable,
+                'exhausted' => count($selectedWords) < $numRequested,
+                'constraints_exhausted' => $totalAvailable <= count($existingWordIds)
+            ]);
+
             return response()->json([
-                'message' => 'Deck not found',
-                'deck_slug' => $request->deck_slug
-            ], 404);
-        }
+                'words' => $selectedWords,
+                'exhausted' => count($selectedWords) < $numRequested,
+                'total_available' => $totalAvailable,
+                'constraints_exhausted' => $totalAvailable <= count($existingWordIds),
+                'thresholdUsed' => null,
+            ], 200, [
+                'Content-Type' => 'application/json; charset=utf-8'
+            ], JSON_UNESCAPED_UNICODE);
 
-        // Only allow selection for user decks
-        if ($deck->category !== 'user' || $deck->user_id !== $user->id) {
-            return response()->json([
-                'message' => 'Unauthorized to select words for this deck'
-            ], 403);
-        }
-
-        $numRequested = $request->num;
-        $deckTitle = $request->deck_title;
-
-        // Get existing word IDs in this deck to avoid duplicates
-        $existingWordIds = $deck->words()->pluck('words.id')->toArray();
-
-        // Build query for word selection
-        $query = Word::query();
-        
-        // Apply JLPT level filter if deck has JLPT level
-        if ($deck->jlpt_level) {
-            $query->where('jlpt_level', $deck->jlpt_level);
-        }
-
-        // Exclude words already in the deck
-        if (!empty($existingWordIds)) {
-            $query->whereNotIn('id', $existingWordIds);
-        }
-
-        // Use semantic search to select relevant words
-        $selectedWords = $this->selectWordsWithSemanticSearch($query, $deckTitle, $numRequested, $existingWordIds);
-        
-        // Calculate total available words with current constraints
-        $totalAvailable = $this->getTotalAvailableWords($deck, $existingWordIds);
-        
-        \Log::info('selectWordsForDeck: Final results', [
-            'words_picked' => count($selectedWords),
-            'requested_num' => $numRequested,
-            'total_available' => $totalAvailable,
-            'exhausted' => count($selectedWords) < $numRequested,
-            'constraints_exhausted' => $totalAvailable <= count($existingWordIds)
-        ]);
-
-        return response()->json([
-            'words' => $selectedWords,
-            'exhausted' => count($selectedWords) < $numRequested,
-            'total_available' => $totalAvailable,
-            'constraints_exhausted' => $totalAvailable <= count($existingWordIds),
-            'thresholdUsed' => null,
-        ], 200, [
-            'Content-Type' => 'application/json; charset=utf-8'
-        ], JSON_UNESCAPED_UNICODE);
-        
         } catch (\Illuminate\Validation\ValidationException $e) {
             \Log::error('selectWordsForDeck validation error', [
                 'errors' => $e->errors(),
@@ -266,179 +261,6 @@ class JlptController extends Controller
                 'error' => $e->getMessage()
             ], 500);
         }
-    }
-
-    /**
-     * Use hybrid approach: AI parsing + database filtering, with semantic search fallback
-     */
-    private function selectWordsWithSemanticSearch($query, $deckTitle, $numRequested, $existingWordIds)
-    {
-        // Set execution time limit to 10 minutes for semantic search
-        set_time_limit(600);
-        
-        $selectedWords = [];
-        $embeddingService = new EmbeddingService();
-        $titleParser = new \App\Services\TitleParserService();
-        
-        \Log::info('selectWordsWithSemanticSearch: Starting hybrid search', [
-            'deck_title' => $deckTitle,
-            'num_requested' => $numRequested
-        ]);
-
-        // Step 1: Try AI parsing first
-        $parsed = $titleParser->parseTitle($deckTitle);
-        
-                   if ($parsed && (!empty($parsed['levels']) || !empty($parsed['categories']))) {
-               \Log::info('selectWordsWithSemanticSearch: AI parsing successful', [
-                   'parsed' => $parsed
-               ]);
-               
-               // Use AI parsing + database filtering
-               $selectedWords = $this->selectWordsWithAIParsing($query, $parsed, $numRequested, $existingWordIds);
-               
-               if (count($selectedWords) >= $numRequested) {
-                   \Log::info('selectWordsWithSemanticSearch: AI parsing provided sufficient results', [
-                       'selected' => count($selectedWords)
-                   ]);
-                   return $selectedWords;
-               }
-               
-               // If AI parsing didn't provide enough results, try semantic search with words_left
-               if (!empty($parsed['words_left'])) {
-                   \Log::info('selectWordsWithSemanticSearch: AI parsing insufficient, trying semantic search with words_left', [
-                       'words_left' => $parsed['words_left']
-                   ]);
-                   
-                   $semanticQuery = implode(' ', $parsed['words_left']);
-                   $semanticWords = $embeddingService->searchSemantic($semanticQuery, $numRequested * 5);
-                   
-                   // Shuffle semantic results for better randomization
-                   shuffle($semanticWords);
-                   
-                   // Filter out words already selected and already in deck
-                   foreach ($semanticWords as $word) {
-                       if (count($selectedWords) >= $numRequested) break;
-                       
-                       $wordId = $word['id'] ?? null;
-                       if ($wordId && !in_array($wordId, $existingWordIds)) {
-                           $wordData = [
-                               'japanese' => $word['japanese'],
-                               'reading' => $word['reading'],
-                               'english' => $word['english'],
-                               'jlpt_level' => $word['jlpt_level'] ?? null,
-                               'part_of_speech' => $word['part_of_speech'] ?? null,
-                               'method' => 'ai_parsing_semantic_fallback'
-                           ];
-                           
-                           $selectedWords[] = $wordData;
-                       }
-                   }
-                   
-                   if (count($selectedWords) >= $numRequested) {
-                       \Log::info('selectWordsWithSemanticSearch: AI + semantic fallback provided sufficient results', [
-                           'selected' => count($selectedWords)
-                       ]);
-                       return $selectedWords;
-                   }
-               }
-           }
-
-        // Step 2: Fallback to semantic search
-        \Log::info('selectWordsWithSemanticSearch: Falling back to semantic search');
-        
-        // Create search query based on deck title
-        $searchQuery = $this->createSearchQueryFromDeckTitle($deckTitle);
-        
-        \Log::info('selectWordsWithSemanticSearch: Search query created', [
-            'search_query' => $searchQuery
-        ]);
-
-        try {
-            // Get semantically similar words with more variety
-            $semanticResults = $embeddingService->searchSemantic($searchQuery, $numRequested * 5);
-            
-            \Log::info('selectWordsWithSemanticSearch: Semantic search results', [
-                'results_count' => $semanticResults->count(),
-                'top_results' => $semanticResults->take(5)->map(function($word) {
-                    return [
-                        'japanese' => $word->japanese,
-                        'english' => $word->english,
-                        'similarity' => round($word->similarity, 4)
-                    ];
-                })->toArray()
-            ]);
-
-            // Apply JLPT level filter if specified
-            $jlptLevel = $this->extractJlptLevelFromTitle($deckTitle);
-            if ($jlptLevel) {
-                $semanticResults = $semanticResults->filter(function($word) use ($jlptLevel) {
-                    return $word->jlpt_level === $jlptLevel;
-                });
-            }
-
-            // Apply part-of-speech filter if specified
-            $partOfSpeech = $this->extractPartOfSpeechFromTitle($deckTitle);
-            if ($partOfSpeech) {
-                $semanticResults = $semanticResults->filter(function($word) use ($partOfSpeech) {
-                    return $word->part_of_speech === $partOfSpeech;
-                });
-            }
-
-            // Shuffle semantic results for better randomization
-            $shuffledResults = $semanticResults->shuffle();
-            
-            // Convert to array format and add to selected words
-            $wordsToTake = min($numRequested, $shuffledResults->count());
-            
-            foreach ($shuffledResults as $word) {
-                if (count($selectedWords) >= $wordsToTake) break;
-                
-                // Check if word is already in deck
-                $alreadyInDeck = in_array($word->id, $existingWordIds);
-                if ($alreadyInDeck) continue;
-                
-                $wordData = [
-                    'japanese' => $word->japanese,
-                    'reading' => $word->reading,
-                    'english' => $word->english,
-                    'jlpt_level' => $word->jlpt_level,
-                    'part_of_speech' => $word->part_of_speech,
-                    'similarity' => $word->similarity,
-                    'method' => 'semantic_search'
-                ];
-                
-                $selectedWords[] = $wordData;
-            }
-            
-            // Log if we couldn't provide all requested words
-            if (count($selectedWords) < $numRequested) {
-                \Log::info('selectWordsWithSemanticSearch: Insufficient words from semantic search', [
-                    'requested' => $numRequested,
-                    'provided' => count($selectedWords),
-                    'search_query' => $searchQuery,
-                    'jlpt_level' => $jlptLevel,
-                    'part_of_speech' => $partOfSpeech
-                ]);
-            }
-
-            \Log::info('selectWordsWithSemanticSearch: Final results', [
-                'total_selected' => count($selectedWords),
-                'requested' => $numRequested,
-                'jlpt_filter' => $jlptLevel,
-                'pos_filter' => $partOfSpeech
-            ]);
-
-        } catch (\Exception $e) {
-            \Log::error('selectWordsWithSemanticSearch: Semantic search failed', [
-                'error' => $e->getMessage(),
-                'deck_title' => $deckTitle
-            ]);
-            
-            // Fallback to random selection
-            $selectedWords = $this->fallbackToRandomSelection($query, $numRequested, $existingWordIds);
-        }
-
-        return $selectedWords;
     }
 
     /**
@@ -969,7 +791,7 @@ class JlptController extends Controller
     public function removeWordFromDeck(Request $request): JsonResponse
     {
         $request->validate([
-            'deck_slug' => 'required|string|exists:decks,slug',
+            'deck_id' => 'required|integer|exists:decks,id',
             'word_id' => 'required|integer|exists:words,id',
         ]);
 
@@ -980,8 +802,8 @@ class JlptController extends Controller
             ], 401);
         }
 
-        $deck = Deck::where('slug', $request->deck_slug)->first();
-        
+        $deck = Deck::find($request->deck_id);
+    
         if (!$deck) {
             return response()->json([
                 'message' => 'Deck not found'
@@ -1105,32 +927,55 @@ class JlptController extends Controller
             ], 401);
         }
 
-        // Generate slug from name
-        $slug = \Illuminate\Support\Str::slug($request->name);
-        
-        // Ensure slug is unique for this user
-        $counter = 1;
-        $originalSlug = $slug;
-        while (Deck::where('slug', $slug)->where('user_id', $user->id)->exists()) {
-            $slug = $originalSlug . '-' . $counter;
-            $counter++;
+        try {
+            // Check for reserved JLPT names
+            if (Deck::isReservedJlptName($request->name)) {
+                return response()->json([
+                    'message' => 'This name is reserved for JLPT core vocabulary decks. Please choose a different name.',
+                    'error' => 'reserved_name',
+                    'status' => 'error'
+                ], 422);
+            }
+
+            // Generate slug from name
+            $slug = \Illuminate\Support\Str::slug($request->name);
+            
+            // Ensure slug is unique for this user
+            $counter = 1;
+            $originalSlug = $slug;
+            while (Deck::where('slug', $slug)->where('user_id', $user->id)->exists()) {
+                $slug = $originalSlug . '-' . $counter;
+                $counter++;
+            }
+
+            $deck = Deck::create([
+                'name' => $request->name,
+                'slug' => $slug,
+                'description' => $request->description,
+                'category' => $request->category ?? 'user', // Default to 'user' if not provided
+                'jlpt_level' => $request->jlpt_level,
+                'is_active' => $request->get('is_active', true),
+                'word_count' => 0,
+                'user_id' => $user->id,
+            ]);
+
+            return response()->json([
+                'message' => 'Deck created successfully',
+                'deck' => $deck,
+                'status' => 'success'
+            ], 201);
+
+        } catch (\Exception $e) {
+            \Log::error('createDeck error', [
+                'error' => $e->getMessage(),
+                'request_data' => $request->all()
+            ]);
+
+            return response()->json([
+                'message' => 'Failed to create deck: ' . $e->getMessage(),
+                'status' => 'error'
+            ], 500);
         }
-
-        $deck = Deck::create([
-            'name' => $request->name,
-            'slug' => $slug,
-            'description' => $request->description,
-            'category' => $request->category ?? 'user', // Default to 'user' if not provided
-            'jlpt_level' => $request->jlpt_level,
-            'is_active' => $request->get('is_active', true),
-            'word_count' => 0,
-            'user_id' => $user->id,
-        ]);
-
-        return response()->json([
-            'message' => 'Deck created successfully',
-            'deck' => $deck
-        ], 201);
     }
 
     /**
@@ -1188,9 +1033,9 @@ class JlptController extends Controller
     }
 
     /**
-     * Delete a deck
+     * Delete a deck by id
      */
-    public function deleteDeck(string $slug): JsonResponse
+    public function deleteDeck(int $id): JsonResponse
     {
         $user = auth()->user();
         if (!$user) {
@@ -1199,7 +1044,7 @@ class JlptController extends Controller
             ], 401);
         }
 
-        $deck = Deck::where('slug', $slug)->first();
+        $deck = Deck::find($id);
         
         if (!$deck) {
             return response()->json([

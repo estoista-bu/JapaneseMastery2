@@ -173,13 +173,13 @@ export default function DeckPage({ params: paramsProp }: { params: { deckId: str
       }
       
       // First, try to load the deck from backend
-      const response = await apiService.getDeck(deckId);
+  const response = await apiService.getDeck(isKanaDeck ? deckId : Number(deckId));
       const backendDeck = response.deck;
       
       if (backendDeck) {
         // Convert backend deck format to frontend format
         const convertedDeck: Deck = {
-          id: backendDeck.slug,
+          id: backendDeck.id,
           name: backendDeck.name,
           description: backendDeck.description || '',
           category: backendDeck.category,
@@ -226,7 +226,7 @@ export default function DeckPage({ params: paramsProp }: { params: { deckId: str
       const combinedDecks = [...initialDecks, ...userDecks, ...groupDecks];
       const uniqueDecks = Array.from(new Map(combinedDecks.map(deck => [deck.id, deck])).values());
       
-      const currentDeck = uniqueDecks.find((d) => d.id === deckId) || null;
+  const currentDeck = uniqueDecks.find((d) => d.id === (isKanaDeck ? deckId : Number(deckId))) || null;
       setDeck(currentDeck);
 
       const deckIsCustom = userDecks.some(d => d.id === deckId) || groupDecks.some(d => d.id === deckId);

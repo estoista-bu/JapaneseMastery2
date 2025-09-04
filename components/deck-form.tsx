@@ -20,8 +20,19 @@ import { useToast } from "@/hooks/use-toast";
 import { apiService } from '@/lib/api';
 import type { Deck } from "@/lib/types";
 
+// Function to check if a name exactly matches a JLPT core deck name
+const isExactJlptCoreName = (name: string) => {
+  const normalizedName = name.toLowerCase().trim();
+  return normalizedName.match(/^jlpt[\s-]n[1-5]$/);
+};
+
 const formSchema = z.object({
-  name: z.string().min(1, "Deck name is required."),
+  name: z.string()
+    .min(1, "Deck name is required.")
+    .refine(
+      (name) => !isExactJlptCoreName(name),
+      "This name is reserved for JLPT core vocabulary decks. Please choose a different name."
+    ),
   description: z.string().optional(),
 });
 
@@ -59,48 +70,57 @@ export function DeckForm({ onSaveDeck, deckToEdit, onClose }: DeckFormProps) {
     }
   }, [deckToEdit, form]);
 
-  async function onSubmit(values: DeckFormData) {
-    // Prevent double submission
-    if (isSubmitting) {
-      console.log('Form submission blocked - already submitting');
-      return;
-    }
-    
-    console.log('Form submission started:', values.name);
-    setIsSubmitting(true);
-    
-    try {
-      // Let the parent handle all API calls to avoid duplication
-      if (deckToEdit) {
-        console.log('Updating deck via callback:', deckToEdit.slug);
-      } else {
-        console.log('Creating new deck via callback:', values.name);
+    async function onSubmit(values: DeckFormData) {
+      // Prevent double submission
+      if (isSubmitting) {
+        console.log('Form submission blocked - already submitting');
+        return;
       }
       
-      onSaveDeck(values, deckToEdit?.id);
+      console.log('Form submission started:', values.name);
+      setIsSubmitting(true);
       
-      // Show success toast after the parent handles the API call
-      toast({
-        title: "Success!",
-        description: deckToEdit 
-          ? `The deck "${values.name}" has been updated.`
-          : `The deck "${values.name}" has been created.`,
-      });
-      
-      onClose();
-    } catch (error) {
-      console.error('Form submission error:', error);
-      toast({
-        title: "Error",
-        description: error instanceof Error ? error.message : "Failed to save deck",
-        variant: "destructive",
-      });
-    } finally {
-      setIsSubmitting(false);
+      try {
+        // Check for reserved names
+        if (isExactJlptCoreName(values.name)) {
+          throw new Error('This name is reserved for JLPT core vocabulary decks. Please choose a different name.');
+        }
+        
+        // Let the parent handle all API calls to avoid duplication
+        if (deckToEdit) {
+          console.log('Updating deck via callback:', deckToEdit.slug);
+        } else {
+          console.log('Creating new deck via callback:', values.name);
+        }
+        
+        await onSaveDeck(values, deckToEdit?.id);
+        
+        // Show success toast after the parent handles the API call
+        toast({
+          title: "Success!",
+          description: deckToEdit 
+            ? `The deck "${values.name}" has been updated.`
+            : `The deck "${values.name}" has been created.`,
+        });
+        
+        onClose();
+      } catch (error) {
+        console.error('Form submission error:', error);
+        
+        // Check if this is a reserved name error from the backend
+        const errorMessage = error instanceof Error ? error.message : "Failed to save deck";
+        const isReservedNameError = errorMessage.toLowerCase().includes('reserved') || 
+                                   errorMessage.toLowerCase().includes('jlpt');
+        
+        toast({
+          title: isReservedNameError ? "Reserved Name" : "Error",
+          description: errorMessage,
+          variant: "destructive",
+        });
+      } finally {
+        setIsSubmitting(false);
+      }
     }
-  }
-
-
 
   return (
     <Form {...form}>

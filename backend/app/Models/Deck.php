@@ -45,10 +45,26 @@ class Deck extends Model
     }
 
     /**
+     * Check if a name is a reserved JLPT deck name
+     */
+    protected static function isReservedJlptName($name)
+    {
+        // Normalize the name: convert to lowercase and trim
+        $normalizedName = strtolower(trim($name));
+        
+        // Match exact "jlpt n#" or "jlpt-n#" pattern
+        return (bool)preg_match('/^jlpt[\s-]n[1-5]$/', $normalizedName);
+    }
+
+    /**
      * Generate a unique slug from the given name
      */
     protected static function generateUniqueSlug($name)
     {
+        if (static::isReservedJlptName($name)) {
+            throw new \InvalidArgumentException('The name "' . $name . '" is reserved for JLPT core vocabulary decks. Please choose a different name.');
+        }
+
         $slug = Str::slug($name);
         $originalSlug = $slug;
         $counter = 1;

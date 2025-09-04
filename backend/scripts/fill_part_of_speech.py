@@ -9,6 +9,9 @@ import unidic_lite
 import json
 import sys
 from typing import Optional
+import io
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 # Database configuration
 DB_CONFIG = {
@@ -63,9 +66,9 @@ def main():
     # Initialize fugashi
     try:
         tagger = fugashi.Tagger()
-        print("✅ Fugashi initialized successfully")
+        print(" Fugashi initialized successfully")
     except Exception as e:
-        print(f"❌ Failed to initialize Fugashi: {e}")
+        print(f" Failed to initialize Fugashi: {e}")
         print("Please install dependencies: pip install fugashi unidic-lite")
         sys.exit(1)
     
@@ -73,9 +76,9 @@ def main():
     try:
         db = mysql.connector.connect(**DB_CONFIG)
         cursor = db.cursor()
-        print("✅ Database connected successfully")
+        print(" Database connected successfully")
     except Exception as e:
-        print(f"❌ Database connection failed: {e}")
+        print(f" Database connection failed: {e}")
         sys.exit(1)
     
     # Get words without part_of_speech (including NULL strings)
@@ -84,7 +87,7 @@ def main():
     print(f"Found {total_words} words without part_of_speech")
     
     if total_words == 0:
-        print("✅ All words already have part_of_speech filled")
+        print(" All words already have part_of_speech filled")
         return
     
     # Process words in batches
@@ -115,7 +118,7 @@ def main():
     # Final commit
     db.commit()
     
-    print(f"✅ Completed! Processed: {processed}, Updated: {updated}")
+    print(f" Completed! Processed: {processed}, Updated: {updated}")
     
     # Show summary
     cursor.execute("SELECT part_of_speech, COUNT(*) FROM words GROUP BY part_of_speech ORDER BY COUNT(*) DESC")

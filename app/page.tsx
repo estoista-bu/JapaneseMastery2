@@ -102,7 +102,7 @@ export default function AppPage() {
       
       // Convert backend deck format to frontend format
       const convertedDecks = backendDecks.map((deck: any) => ({
-        id: deck.slug, // Use slug as ID for consistency
+        id: deck.id, // Use slug as ID for consistency
         name: deck.name,
         description: deck.description || '',
         category: deck.category,
@@ -162,11 +162,11 @@ export default function AppPage() {
     try {
       // Find the deck to get its slug
       const deckToRemove = decks.find(d => d.id === id);
-      if (deckToRemove?.slug) {
-        console.log('Attempting to delete deck:', deckToRemove.slug);
+      if (deckToRemove?.id) {
+        console.log('Attempting to delete deck:', deckToRemove.id);
         // Call backend to delete the deck
-        await apiService.deleteDeck(deckToRemove.slug);
-        console.log('Deck deleted from backend:', deckToRemove.slug);
+        await apiService.deleteDeck(deckToRemove.id);
+        console.log('Deck deleted from backend:', deckToRemove.id);
         
         // Show success toast
         toast({

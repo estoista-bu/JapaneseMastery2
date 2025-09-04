@@ -88,7 +88,7 @@ export function VocabularyManager({ decks, onSaveDeck, onRemoveDeck, userId, onD
   const handleConfirmRemove = async () => {
     if (deletingDeck) {
       try {
-        await apiService.deleteDeck(deletingDeck.slug);
+  await apiService.deleteDeck(deletingDeck.id);
         onRemoveDeck(deletingDeck.id);
         // Don't call onDecksUpdate() since onRemoveDeck already updates the local state
         setDeletingDeck(null);
@@ -118,7 +118,7 @@ export function VocabularyManager({ decks, onSaveDeck, onRemoveDeck, userId, onD
   const userDecks = decks.filter(d => d.category === 'user');
   const groupDecks = decks.filter(d => d.category === 'group');
   const adminDecks = decks.filter(d => d.category === 'admin');
-  const jlptDecks = decks.filter(d => d.category === 'jlpt').sort((a,b) => b.id.localeCompare(a.id));
+  const jlptDecks = decks.filter(d => d.category === 'jlpt').sort((a,b) => b.id - a.id);
   
 
 

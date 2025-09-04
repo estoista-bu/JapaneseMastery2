@@ -232,25 +232,34 @@ class ApiService {
     jlpt_level?: 'N1' | 'N2' | 'N3' | 'N4' | 'N5';
     is_active?: boolean;
   }): Promise<any> {
-    return await this.request('/jlpt/decks', {
-      method: 'POST',
-      body: JSON.stringify(deckData),
-    });
+    try {
+      return await this.request('/jlpt/decks', {
+        method: 'POST',
+        body: JSON.stringify(deckData),
+      });
+    } catch (error) {
+      // Check if this is a reserved name error from the backend
+      if (error instanceof Error && 
+          error.message.toLowerCase().includes('reserved')) {
+        throw new Error('This name is reserved for JLPT core vocabulary decks. Please choose a different name.');
+      }
+      throw error;
+    }
   }
 
-  async updateDeck(slug: string, deckData: {
+  async updateDeck(id: number, deckData: {
     name?: string;
     description?: string;
     is_active?: boolean;
   }): Promise<any> {
-    return await this.request(`/jlpt/decks/${slug}`, {
+    return await this.request(`/jlpt/decks/${id}`, {
       method: 'PUT',
       body: JSON.stringify(deckData),
     });
   }
 
-  async deleteDeck(slug: string): Promise<any> {
-    return await this.request(`/jlpt/decks/${slug}`, {
+  async deleteDeck(id: number): Promise<any> {
+    return await this.request(`/jlpt/decks/${id}`, {
       method: 'DELETE',
     });
   }

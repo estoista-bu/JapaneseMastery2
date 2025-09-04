@@ -49,7 +49,7 @@ Route::prefix('jlpt')->middleware('auth:sanctum')->group(function () {
     // Deck management routes
     Route::post('/decks', [JlptController::class, 'createDeck']);
     Route::put('/decks/{slug}', [JlptController::class, 'updateDeck']);
-    Route::delete('/decks/{slug}', [JlptController::class, 'deleteDeck']);
+    Route::delete('/decks/{id}', [JlptController::class, 'deleteDeck']);
     Route::get('/decks/category/{category}', [JlptController::class, 'getDecksByCategory']);
 
     // AI-assisted selection from DB (no repeats, JLPT/topic aware)

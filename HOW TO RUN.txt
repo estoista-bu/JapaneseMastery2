@@ -17,6 +17,14 @@ how to add vectors (embeddings):
 1. cd backend
 2. php artisan embeddings:generate
 
+how to add parts of speech:
+1. cd backend
+2. php artisan words:fill-pos
+
+how to update jlpt core vocab (in backend/database)
+1. cd backend
+2. php sync_jlpt_decks.php
+
 adding words manually:
 -- INSERT INTO words 
 -- (japanese, reading, english, jlpt_level, example_sentence, part_of_speech, created_at, updated_at, embedding)

@@ -45,7 +45,7 @@ class FillPartOfSpeech extends Command
             return 1;
         }
         
-        $this->info('✅ fugashi is available');
+        $this->info(' fugashi is available');
         
         // Run the Python script
         $this->info('Running Python script...');
@@ -63,10 +63,10 @@ class FillPartOfSpeech extends Command
         
         // Check if successful
         if (strpos($output, 'Completed!') !== false) {
-            $this->info('✅ Part of speech backfill completed successfully!');
+            $this->info(' Part of speech backfill completed successfully!');
             return 0;
         } else {
-            $this->error('❌ Part of speech backfill failed');
+            $this->error(' Part of speech backfill failed');
             return 1;
         }
     }
